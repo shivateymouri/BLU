@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>بلو| بانک ولی دوست داشتنی</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+  <style>
+    @font-face {
+      font-family: "yekan";
+      src: url(font/iranyekanwebregularfanum.ttf);
+    }
+    body{
+      font-family: "yekan";
+    } 
+  </style>
+  <body dir="rtl" class="overflow-x-hidden">
+    <main>
+      <header
+        class="w-full fixed shadow-md top-0 left-0 right-0 h-[77px] bg-white flex flex-row md:justify-evenly justify-around items-center"
+      >
+        <svg
+          class="flex md:hidden w-[30px] h-[30px]"
+          id="menuBtn"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+          />
+        </svg>
+
+        <img
+          class="w-[54px] h-[52px] object-cover"
+          src="img/blulogo.PNG"
+          alt=""
+        />
+
+        <ul
+          class="hidden md:flex gap-10 w-[60%] h-full justify-start items-center text-[14px] text-black"
+        >
+          <li ><a href="#">خدمات</a></li>
+          <li ><a href="#">وام</a></li>
+          <li ><a href="#">بلوجونیور</a></li>
+          <li ><a href="#">تماس با ما</a></li>
+          <li ><a href="#">سوالات متداول</a></li>
+        </ul>
+        <a
+          class="hidden md:flex w-[170px] h-[55px] border-2 border-blue-600 rounded-md justify-center items-center text-blue-600 text-[18px]"
+          href=""
+          >دانلود و نصب بلو</a
+        >
+        <svg
+          class="flex md:hidden w-[30px] h-[30px]"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="size-6"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M9 8.25H7.5a2.25 2.25 0 0 0-2.25 2.25v9a2.25 2.25 0 0 0 2.25 2.25h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25H15M9 12l3 3m0 0 3-3m-3 3V2.25"
+          />
+        </svg>
+      </header>
+      <!-- <div id='container' class="w-full md:hidden bg-red flex-col items-center border-2 border-red-400 justify-center"></div> -->
+      <!-- END HEADER -->
+      <div
+        class="topBox w-full flex justify-center items-start p-6 h-[50vh] mt-40"
+      >
+        <div
+          class="boxOne flex flex-col justify-center items-center gap-8 text-center"
+        >
+          <h1 class="text-[64px]">بلو، بانک ولی دوست داشتنی!</h1>
+          <p class="text-[18px]">
+            بلو، پلتفرمی تمام دیجیتال است که همه‌ی عملیات بانکداری با اپلیکیشن
+            بلو و کاملا آنلاین انجام میشود
+          </p>
+          <a
+            class="text-[18px] shadow-md h-[50px] w-[164px] bg-blue-600 text-white rounded-md flex items-center justify-center"
+            href=""
+            >دانلود اپلیکیشن</a
+          >
+          <div
+            class="text-[18px] h-[55px] w-[191px] text-blue-600 hover:bg-blue-100 rounded-md flex items-center justify-center"
+          >
+            <a href="">ویدیو معرفی بلو</a>
+          </div>
+        </div>
+      </div>
+      <!-- end sec One  -->
+      <div
+        class="flex flex-col md:flex-row justify-center items-center h-[50vh] md:h-[30vh]"
+      >
+        <img
+          class="w-[450px] h-[450px] object-cover"
+          src="img/card-image-rocket.png"
+          alt=""
+        />
+        <div class="flex flex-col gap-5 p-5">
+          <h2 class="text-[24px] font-bold">سریع</h2>
+          <p class="text-[16px]">
+            انجام تمام کارهای بانکی از باز کردن حساب گرفته تا گرفتن وام، انتقال
+            پول و... در کمتر از ۷ دقیقه
+          </p>
+        </div>
+      </div>
+      <!-- end sec two -->
+      <div
+        class="flex flex-col md:flex-row-reverse justify-center items-center h-[50vh] md:h-[30vh]"
+      >
+        <img
+          class="w-[450px] h-[450px] object-cover"
+          src="img/card-image-bank.png"
+          alt=""
+        />
+        <div class="flex flex-col gap-5 p-5">
+          <h2 class="text-[24px] font-bold">آسان</h2>
+          <p class="text-[16px]">
+            انجام تمام کارهای بانکی به صورت آنلاین بدون مراجعه حضوری به شعبه،
+            فقط با باز کردن حساب و دانلود اپلیکیشن بلو
+          </p>
+        </div>
+      </div>
+      <!-- end sec three -->
+      <div
+        class="flex flex-col md:flex-row justify-center items-center h-[50vh] md:h-[30vh]"
+      >
+        <img
+          class="w-[450px] h-[450px] object-cover"
+          src="img/card-image-safety.png"
+          alt=""
+        />
+        <div class="flex flex-col gap-5 p-5">
+          <h2 class="text-[24px] font-bold">امن</h2>
+          <p class="text-[16px]">
+            کوتاه شدن دست کلاه‌برداران مجازی و حقیقی از سرمایه‌ی شما با استفاده
+            از سرویس‌های باکس پس‌انداز و مسدود سازی کارت و....
+          </p>
+        </div>
+      </div>
+      <!-- end sec four -->
+      <div class="w-full mt-32">
+        <div
+          class="flex flex-col justify-center items-center mt-32 md:mt-0 gap-5"
+        >
+          <h2 class="text-[20px] font-bold">بلو فقط آبی نیست</h2>
+          <h6 class="text-[16px] text-blue-300 mb-5">کارت‌های بلو</h6>
+        </div>
+        <div class="w-full flex justify-center items-center gap-3">
+          <div
+            class="w-[443px] h-[450px] m-10 md:m-0 md:w-[676px] md:h-[724px] bg-blue-100 rounded-3xl flex flex-row"
+          >
+            <div class="colorsBox w-1/3 flex flex-col justify-center items-center gap-3 *:cursor-pointer *:md:w-12 *:md:h-12 *:w-10 *:h-10 *:rounded-full">
+              <div data-color="blue" class="colorBox bg-blue-400"></div>
+              <div data-color="red" class="colorBox bg-red-500"></div>
+              <div data-color="green" class="colorBox bg-green-500"></div>
+              <div data-color="purple" class="colorBox bg-purple-500"></div>
+              <div data-color="yellow" class="colorBox bg-yellow-500"></div>
+              <div data-color="rosegold" class="colorBox bg-rose-300"></div>
+              <div data-color="black" class="colorBox bg-black"></div>
+            </div>
+            <video id="card-video" src="img/card-blue-video-cbg.webm" autoplay loop class="w-2/3 vframe"></video>
+          </div>
+          <div
+            class="hidden md:flex md:flex-col *:w-[492px] *:h-[355px] *:bg-blue-100 *:rounded-3xl gap-3"
+          >
+            <div class="flex justify-center items-start">
+              <img
+              id="card-back"
+                class="h-[95%] object-cover"
+                src="img/card-blue-render-back.png"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-center items-end">
+              <img
+                id="card-front"
+                class="h-[90%] object-cover"
+                src="img/card-blue-render-front.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end sec five -->
+      <div class="w-full flex flex-col justify-center items-center mt-32">
+        <div
+          class="flex flex-col justify-center items-center md:mt-0 gap-5 text-[32px] font-bold"
+        >
+          <h2 class="text-[20px] font-bold">با سرویس‌های بلو پولتو ذخیره کن</h2>
+        </div>
+        <div class="flex flex-col justify-center items-center gap-3">
+          <div
+            class="flex flex-col md:flex-row justify-center mt-32 items-center gap-3"
+          >
+            <div
+              class="bg-green-100 m-10 md:m-0  w-[443px] h-[450px] rounded-3xl md:w-[578px] md:h-[509px] flex flex-col justify-center p-5 gap-3"
+            >
+              <h2 class="text-[20px] font-bold">سود تو بیگ باکسه</h2>
+              <p class="text-[18px]">
+                با ساخت حساب بلند مدت در اپلیکیشن بلو برای سرمایه‌گذاری در ۳ ماه
+                ۱۲ درصد، ۶ ماه ۱۷ درصد و برای ۱۲ ماه تا ۲۰/۵ درصد سود دریافت
+                کنید.
+              </p>
+              <figure class="w-full flex justify-end">
+                <img class="w-1/2 object-cover" src="img/mountain.png" alt="" />
+              </figure>
+              <button
+                id="btn"
+                class="rounded-full bg-white w-[50px] flex justify-center items-center h-[50px]"
+              >
+                <svg
+                  id="arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 19.5-15-15m0 0v11.25m0-11.25h11.25"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="bg-pink-100 w-[443px] h-[450px] rounded-3xl md:w-[578px] md:h-[509px] p-5 gap-3 flex justify-center flex-col"
+            >
+              <h2 class="text-[20px] font-bold">لذت برگشت پول</h2>
+              <p class="text-[18px]">
+                با خرید روزانه از فروشگاه‌های طرف قرارداد یا درصدی از خرید را
+                تخفیف می‌گیرید یا درصدی از مبلغ به حساب شما برمی‌گردد.
+              </p>
+              <figure class="w-full h-2/3 mb-10 flex justify-end">
+                <img
+                  class="w-1/2 object-cover"
+                  src="img/blu-img-cashback.png"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+          <div
+            class="w-[443px] h-[504px] rounded-3xl md:w-[1168px] md:h-[509px] flex bg-blue-100 p-5"
+          >
+            <div class="w-1/2">
+              <h2 class="text-[20px] font-bold mt-5">وام، ولی دست یافتنی</h2>
+              <p class="text-[18px] md:h-[330px] h-[280px] mt-10">
+                بدون ضامن و وثیقه در کمتر از ۷ دقیقه وام سریع و آسان بلو را
+                دریافت کنید. با میانگین حساب خود در ۳ ماه متوالی می‌توانید از ۳
+                تا ۴۰ میلیون وام بگیرید.
+              </p>
+              <button
+                id="btnTwo"
+                class="rounded-full  bg-white w-[50px] flex justify-center items-center h-[50px]"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m19.5 19.5-15-15m0 0v11.25m0-11.25h11.25"
+                  />
+                </svg>
+              </button>
+            </div>
+            <figure class="w-1/2 h-1/2 m-auto md:h-full md:m-0 flex justify-center items-center">
+              <img class="w-[400px]" src="img/blu-img-bag.png" alt="" />
+            </figure>
+          </div>
+        </div>
+      </div>
+      <!-- end sec six -->
+      <div
+        class="accordian flex flex-col justify-center items-center w-full h-screen"
+      >
+        <div class="flex flex-col justify-center items-center w-full gap-5">
+          <h2 class="text-[32px]">سوالی برات پیش اومده ؟</h2>
+          <p class="text-[16px] text-gray-400">
+            پاسخ سوالات خود را از دسته‌بندی‌های زیر پیدا کنید
+          </p>
+        </div>
+        <div
+          class="hidden md:flex gap-5 justify-center items-center mt-10 *:p-3 *:flex *:justify-center *:items-center *:rounded-md *:w-36 *:bg-blue-600"
+        >
+          <div
+            class="text-[14px] hover:bg-gray-200 hover:text-black text-white"
+          >
+            عمومی
+          </div>
+          <div
+            class="text-[14px] hover:bg-gray-200 hover:text-black text-white"
+          >
+            باز کردن حساب
+          </div>
+          <div
+            class="text-[14px] hover:bg-gray-200 hover:text-black text-white"
+          >
+            کارت بانکی
+          </div>
+          <div
+            class="text-[14px] hover:bg-gray-200 hover:text-black text-white"
+          >
+            وام
+          </div>
+          <div
+            class="text-[14px] hover:bg-gray-200 hover:text-black text-white"
+          >
+            حساب کاربری
+          </div>
+          <div
+            class="text-[14px] hover:bg-gray-200 hover:text-black text-white"
+          >
+            تراکنش ها
+          </div>
+          <div
+            class="text-[14px] hover:bg-gray-200 hover:text-black text-white"
+          >
+            بلوجونیور
+          </div>
+        </div>
+        <div
+          class="mt-10 w-full md:w-[90%] flex flex-col *:md:w-full *:flex *:items-center *:gap-6 *:w-full *:pr-3"
+        >
+          <div
+            class="accTab hover:bg-blue-100 w-[450px] h-[85px] border-b-2 border-blue-100 flex flex-col"
+          >
+          <div class="w-full flex gap-5 mt-8">
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-10"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+            <p class="text-[18px] font-bold">
+              چگونه میتوانم در بلو حساب باز کنم؟
+            </p>
+          </div>
+            <div class="accordian-box w-full h-full flex-col overflow-hidden hidden items-center">
+
+              <p>۱- اپلیکیشن بلو را دانلود و نصب کنید (لینک صفحه‌ی دانلود)</p>
+              <p>۲- با خط تلفنی که به‌نام خودتان و فعال است، ثبت‌نام را شروع کنید</p>
+              <p>۳- همراه داشتن اصل کارت ملی هوشمند یا همراه داشتن اصل شناسنامه و «کد رهگیری درخواست صدور کارت ملی هوشمند» برای ثبت تصاویر آن‌ها</p>
+              <p>۴- ضبط و ارسال یک ویدئو‌ی سلفی به‌صورت زنده</p>
+            </div>
+          </div>
+          <div
+            class="accTab hover:bg-blue-100 w-[450px] h-[85px] border-b-2 border-blue-100 flex flex-col"
+          >
+          <div class="w-full flex gap-5 mt-8">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-10"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+            <p class="text-[18px] font-bold">
+              هزینه باز کردن حساب و دریافت بلوکارت چقدر است؟
+            </p>
+            </div>
+            <div class="accordian-box w-full flex-col overflow-hidden hidden">
+              <p>باز کردن حساب، صدور و ارسال بلوکارت کاملا رایگان است.</p> 
+            </div>
+          </div>
+          <div
+            class="accTab hover:bg-blue-100 w-[450px] h-[85px] border-b-2 border-blue-100 flex flex-col"
+          >
+          <div class="w-full flex gap-5 mt-8">
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-10"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+            <p class="text-[18px] w-full font-bold">
+              شرایط دریافت وام بلو ، به چه صورت است؟
+            </p>
+          </div>
+          <div class="accordian-box w-full flex-col overflow-hidden hidden">
+            <p>
+              برای دریافت وام نقدی بلو در مرحله اول، میانگین ماهانه‌ موجودی شما در ۳ ماه متوالی باید بیشتر از ۳ میلیون تومان باشد. بعد از تعیین مبلغ اعتبار از روی میانگین ۳ ماه، سابقه چک برگشتی، تسهیلات معوق و امتیاز اعتباری شما از سامانه‌های بانک مرکزی استعلام می‌شود. به شرط نداشتن چک برگشتی و تسهیلات معوق، وام به شما تعلق می‌گیرد.
+بعد از تسویه این وام و با توجه به رفتار مالی خود، می‌توانید وام‌های بعدی را تا سقف ۴۰ میلیون تومان دریافت کنید.
+            </p>
+          </div>
+          </div>
+          <div
+            class="accTab hover:bg-blue-100 w-[450px] h-[85px] border-b-2 border-blue-100 flex flex-col"
+          >
+          <div class="w-full flex gap-5 mt-8">
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-10"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 4.5v15m7.5-7.5h-15"
+              />
+            </svg>
+            <p class="text-[18px] font-bold">طرح های وام در بلو چقدر است؟</p>
+          </div>
+          <div class="accordian-box w-full flex-col overflow-hidden hidden">
+            <p>در بلو سه طرح وام تعریف شده که بسته به نیازتان و این‌که شرایط دریافت کدام یک را دارید، می‌توانید از آن‌ها استفاده کنید:</p>
+            <p>۱. وام نقدی: این وام به‌صورت فوری به حسابتان واریز می‌شود. در مرحله اول، با توجه به میانگین موجودی سه ماه متوالی شما، وامی با مبلغ ۳ تا ۱۰ میلیون تومان برایتان فعال می‌شود. بعد از تسویه این وام و با توجه به رفتار مالی شما، وام‌های بعدی تا سقف ۴۰ میلیون تومان فعال خواهند شد.</p>
+            <p>۲. وام سازمانی: این وام با همکاری شرکت‌ها و به کارمندان همان شرکت پرداخت می‌شود. شرایط دریافت این وام برای هر شرکت متفاوت از دیگری است.</p>
+            <p>۳. وام مشارکتی با پلتفرم‌ها و وب‌سایت‌ها: این وام با همکاری پلتفرم‌ها و وب‌سایت‌هایی مثل ازکی‌وام، به مشتریان آن‌ها تعلق می‌گیرد.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end sec seven  -->
+      <div
+        class="flex flex-col md:flex-row w-full justify-center items-center bg-gray-100"
+      >
+        <div
+          class="md:w-1/3 w-full p-5 flex flex-col gap-12 justify-center h-[424px]"
+        >
+          <img src="img/footlogo.PNG" class="w-40" alt="" />
+          <p class="text-[13px] text-gray-400">
+            بلو، پلتفرمی تمام دیجیتال است که همه‌ی عملیات بانکداری روی اپلیکیشن
+            موبایل، کاملا آنلاین و زیر نظر بانک سامان انجام می‌شود.
+          </p>
+          <div
+            class="flex flex-col md:flex-row justify-start md:items-start items-center gap-10"
+          >
+            <a
+              class="w-[220px] shadow-md hover:text-blue-600 hover:bg-white bg-blue-600 text-white p-5 rounded-l-full rounded-r-full text-center text-[14px]"
+              href=""
+              >دریافت نسخه اندروید</a
+            ><a
+              class="w-[220px] shadow-md hover:text-blue-600 hover:bg-white bg-blue-600 text-white p-5 rounded-l-full rounded-r-full text-center text-[14px]"
+              href=""
+              >دریافت نسخه وب</a
+            >
+          </div>
+        </div>
+        <div
+          class="md:w-1/3 w-full p-5 flex flex-col justify-center items-center gap-10 h-[424px]"
+        >
+          <div class="h-[108px] w-full border-b-gray-400 border-b-2">
+            <h2
+              class="w-full text-[20px] font-bold flex flex-row-reverse justify-end gap-3 items-center"
+            >
+              همیشه به وقت همه‌ جا
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+                />
+              </svg>
+            </h2>
+            <p class="text-[16px] text-gray-400 w-full">
+              کارشناسان بلولاین ۷ روز هفته و ۲۴ ساعته، آماده‌ی پاسخ‌گویی و حل
+              مشکلات احتمالی شما هستند.
+            </p>
+          </div>
+          <div class="h-[108px] w-full border-b-gray-400 border-b-2">
+            <h2
+              class="w-full text-[20px] font-bold flex flex-row-reverse justify-end gap-3 items-center"
+            >
+              بلو فقط آبی نیست
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z"
+                />
+              </svg>
+            </h2>
+            <p class="text-[16px] text-gray-400 w-full">
+              در بلو می‌توانید رنگ بلوکارت‌ خود را از بین رنگ‌های قرمز، سبز،
+              آبی، بنفش، رزگلد و زرد انتخاب و رایگان دریافت کنید.
+            </p>
+          </div>
+          <div class="h-[108px] w-full border-b-gray-400 border-b-2">
+            <h2
+              class="w-full text-[20px] font-bold flex flex-row-reverse justify-end gap-3 items-center"
+            >
+              حسابت از بقیه جداست
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
+                />
+              </svg>
+            </h2>
+            <p class="text-[16px] text-gray-400 w-full">
+              در بلو، بازکردن حساب کاملا رایگان است و نیاز به حداقل موجودی و
+              پرداخت کارمزد ندارد.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- end sec eight  -->
+      <footer class="w-full bg-gray-300 flex md:flex-row flex-col justify-center items-center">
+        <div class="md:w-1/3 w-full h-full flex flex-col justify-center items-center gap-3">
+          <div class="flex flex-col md:flex-row p-3 h-1/2 w-full justify-center items-center gap-5 *:text-gray-500">
+            <p class="flex flex-row-reverse justify-center items-center text-[14px]">پشتیبانی:79158000-021
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+              </svg>
+              
+            </p>
+            <p class="flex flex-row-reverse justify-center items-center text-[14px]">تهران، خ نلسون ماندلا، خ شهید رحیمی، پلاک ۴۳
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z" />
+              </svg>
+              
+            </p>
+          </div>
+          <div class="flex h-1/2 w-full justify-center items-center"></div>
+        </div>
+        <div class="md:w-1/3 w-full h-full flex flex-col md:flex-row justify-center items-center gap-3 *:text-gray-500 *:p-3">
+          <figure>
+            <img class="rounded-full w-[100px] h-[100px] object-cover" src="img/ShivaTeymouri.JPG" alt="">
+          </figure>
+          <p class="text-[14px] animate-bounce">Developed By Shiva Teymouri</p>
+          <div class="flex flex-row justify-center items-center gap-3">
+            <a href="https://www.instagram.com/shivateymouri.dev?igsh=MXh3NXBhMjhsZ2tiYg==">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48">
+                <path d="M 16.5 5 C 10.16639 5 5 10.16639 5 16.5 L 5 31.5 C 5 37.832757 10.166209 43 16.5 43 L 31.5 43 C 37.832938 43 43 37.832938 43 31.5 L 43 16.5 C 43 10.166209 37.832757 5 31.5 5 L 16.5 5 z M 16.5 8 L 31.5 8 C 36.211243 8 40 11.787791 40 16.5 L 40 31.5 C 40 36.211062 36.211062 40 31.5 40 L 16.5 40 C 11.787791 40 8 36.211243 8 31.5 L 8 16.5 C 8 11.78761 11.78761 8 16.5 8 z M 34 12 C 32.895 12 32 12.895 32 14 C 32 15.105 32.895 16 34 16 C 35.105 16 36 15.105 36 14 C 36 12.895 35.105 12 34 12 z M 24 14 C 18.495178 14 14 18.495178 14 24 C 14 29.504822 18.495178 34 24 34 C 29.504822 34 34 29.504822 34 24 C 34 18.495178 29.504822 14 24 14 z M 24 17 C 27.883178 17 31 20.116822 31 24 C 31 27.883178 27.883178 31 24 31 C 20.116822 31 17 27.883178 17 24 C 17 20.116822 20.116822 17 24 17 z"></path>
+                </svg>
+            </a>
+            <a href="http://www.linkedin.com/in/shiva-teymoori">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0 0 48 48">
+                <path d="M 11.5 6 C 8.4802259 6 6 8.4802259 6 11.5 L 6 36.5 C 6 39.519774 8.4802259 42 11.5 42 L 36.5 42 C 39.519774 42 42 39.519774 42 36.5 L 42 11.5 C 42 8.4802259 39.519774 6 36.5 6 L 11.5 6 z M 11.5 9 L 36.5 9 C 37.898226 9 39 10.101774 39 11.5 L 39 36.5 C 39 37.898226 37.898226 39 36.5 39 L 11.5 39 C 10.101774 39 9 37.898226 9 36.5 L 9 11.5 C 9 10.101774 10.101774 9 11.5 9 z M 15.5 13 A 2.5 2.5 0 0 0 15.5 18 A 2.5 2.5 0 0 0 15.5 13 z M 14 20 C 13.447 20 13 20.447 13 21 L 13 34 C 13 34.553 13.447 35 14 35 L 17 35 C 17.553 35 18 34.553 18 34 L 18 21 C 18 20.447 17.553 20 17 20 L 14 20 z M 21 20 C 20.447 20 20 20.447 20 21 L 20 34 C 20 34.553 20.447 35 21 35 L 24 35 C 24.553 35 25 34.553 25 34 L 25 26.5 C 25 25.121 26.121 24 27.5 24 C 28.879 24 30 25.121 30 26.5 L 30 34 C 30 34.553 30.447 35 31 35 L 34 35 C 34.553 35 35 34.553 35 34 L 35 26 C 35 22.691 32.309 20 29 20 C 27.462 20 26.063 20.586016 25 21.541016 L 25 21 C 25 20.447 24.553 20 24 20 L 21 20 z"></path>
+                </svg>   
+                </a>
+          </div>
+        </div>
+        <div>
+        </div>
+      </div>
+      <!-- end sec nine  -->
+    </main>
+    <script src="blu.js"></script>
+  </body>
+</html>
